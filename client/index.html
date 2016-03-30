@@ -6,16 +6,26 @@
 	<title></title>
 </head>
 <body ng-controller="MyController">
-	<font color="#100FCC">Hello, World!</font>
+	<font color="#eee">Hello, World!</font>
 	<h1>
 		
 		<font size="24" color="#123456">Learn New Words</font>
 	</h1>
 
 	<div>
-		<input ng-model="newWord"> 
+		<input ng-model="newWord"></div></input>
+		<button ng-click="saveThisWord()">Save</button>
 	</div>
 	<script src="node_modules/angular/angular.js"></script>
-	<script scr="index.js"></script>
+
+	<!--to link js to html-->
+	<script src="index.js"></script> 
 </body>
 </html>
+
+
+
+
+
+
+

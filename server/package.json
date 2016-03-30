@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Min Dee",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "nedb": "^1.8.0"
+  }
 }
